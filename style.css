@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.card {
+  margin-top: 20px;
+  border: 1px solid gray;
+  padding: 16px;
+  max-width: 200px;
+  min-width: 240px;
+  border-radius: 10px;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+img {
+  width: 100%;
+}
+
+.btn-label {
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-label:hover {
+  background-color: yellow;
+}
+
+.btn-label.active {
+  background-color: yellow;
+}
+
+nav {
+  margin-top: 5px;
+  background: white;
+
+  button {
+    border-radius: 5px;
+  }
+}
